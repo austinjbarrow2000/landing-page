@@ -99,6 +99,7 @@ button {
     background-color: #3882F6;
     padding: 8px 25px;
     flex-grow: 0;
+    font-size: 16px;
     color: #F9FAF8;
     border-radius: 10px;
     flex: 0 0 auto;
@@ -150,5 +151,37 @@ section {
 .quote-author {
     align-self: flex-end;
     margin-right: 250px;
+}
+
+.sign-up {
+    display: flex;
+    padding: 50px 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-container {
+    background-color: #3882F6;
+    border-radius: 15px;
+    display: flex;
+    padding: 40px 100px;
+    flex: 1 1 auto;
+    justify-content: space-between;
+}
+
+.sign-up-btn {
+    font-size: 18px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.sign-up-title {
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.sign-up-text {
+    color: #E5E7EB;
 }
 
